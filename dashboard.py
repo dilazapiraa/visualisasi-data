@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+st.markdown("Analisis Data Bike Sharing Dataset")
 
 day_df = pd.read_csv('day.csv')
 st.table(day_df.head())
