@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-day_df = pd.read_csv(r'C:\Users\acer\Bike-sharing-data11\day.csv')
+day_df = pd.read_csv('day.csv')
 st.table(day_df.head())
 
 # Mapping the nomor season ke nama musim aktual agar lebih mudah dibaca
