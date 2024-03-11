@@ -1,6 +1,5 @@
 import streamlit as st 
 import pandas as pd
-import streamlit_extras.dataframe_explorer as dataframe_explorer
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -47,10 +46,3 @@ plt.grid(axis='y')
 st.pyplot(plt)
 
 
-# def data_frame_hour(dataframe):
-    
-#     st.markdown("## :green[Data Frame Hour ]")
-#     filtered_df = dataframe_explorer(dataframe, case=False)
-#     st.dataframe(filtered_df, use_container_width=True)
-    
-# data_frame_hour(day_df)
